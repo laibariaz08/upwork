@@ -1,0 +1,578 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: 'Radio Canada', sans-serif;;
+}
+header {
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 100;
+}
+a {
+  text-decoration: none;
+}
+#opportunities10 h1 {
+  font-size: 75px;
+  color: rgb(20, 168, 0);
+}
+h1 {
+  font-size: 66px;
+  line-height: 1;
+}
+h2 {
+  font-size: 50px;
+  color: rgb(0, 30, 0);
+}
+h3 {
+  font-size: 33px;
+  font-family: 'Radio Canada', sans-serif;;
+}
+h4 {
+  font-size: 24px;
+  font-family: 'Radio Canada', sans-serif;;
+}
+h5 {
+  font-size: 14px;
+  font-family: 'Radio Canada', sans-serif;;
+}
+h1, h2 {
+  font-family: 'Radio Canada', sans-serif;
+}
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+  margin-bottom: .4em;
+}
+.myupwork01 {
+  max-width: 85%;
+  margin: auto;
+}
+.flexa{
+  display: flex;
+}
+.opportunities32 {
+  flex-direction: column;
+}
+img {
+  max-width: 100%;
+}
+.clr_black {
+  color: rgb(0, 30, 0);
+}
+.clr_accent {
+  color: rgb(20, 168, 0);
+}
+.clr_gray {
+  color: rgb(94, 109, 85);
+}
+.clr-accent-light {
+  color: rgb(213, 224, 213);
+}
+.click {
+  border-radius: 34px;
+  padding: .6em 2em;
+}
+.color1 {
+  color: #fff;
+  background: rgb(20, 168, 0);
+}
+.color1:hover {
+  background: rgb(60, 129, 36)
+}
+
+.color2 {
+  background: #fff;
+  color: rgb(20, 168, 0);
+  border: 1px solid rgb(20, 168, 0);
+}
+.color2:hover {
+background: rgb(242, 247, 242)
+}
+
+#opportunities1 {
+  border-bottom: 1px solid rgb(213, 224, 213);
+}
+#firsthead {
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+#implogo1 {
+  display: flex;
+  align-items: center;
+}
+.nav_links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+.navigation1 {
+  margin-right: 33px;
+}
+.navigation1 > a {
+  color: rgb(94, 109, 85);
+  display: inline-flex;
+  align-items: center;
+}
+.navigation1:hover a {
+  color: rgb(20, 168, 0);
+}
+
+.fa-angle-down {
+  margin: 0 10px;
+  font-size: 7px;
+}
+.clr_gray {
+  color: rgb(94, 109, 85);
+}
+
+#opportunities4 {
+  border: 1px solid rgb(213, 224, 213);
+  border-radius: 75px;
+  padding: 10px 16px;
+  display: inline-flex;
+  align-items: center;
+}
+#opportunities4:hover {
+  background: rgb(242, 247, 242);
+}
+#searchBar {
+  border: none;
+  background: transparent;
+  font-family: 'Radio Canada', sans-serif;;
+  font-size: 16px;
+  color: rgb(94, 109, 85);
+  width: 198px;
+}
+#searchBar:focus {
+  outline: none;
+}
+.fa-magnifying-glass {
+  font-size: 14px;
+}
+
+#opportunities6 {
+  color: rgb(94, 109, 85);
+  margin-right: 16px;
+}
+#opportunities6:hover {
+  color: rgb(20, 168, 0)
+}
+
+#opportunities8 {
+  padding: 24px 16px;
+}
+
+#opportunities10 {
+  padding: 33px 0;
+}
+#opportunities11 {
+  width: 60%;
+}
+#opportunities16 {
+  width: 40%;
+}
+#opportunities12 {
+  color: rgb(94, 109, 85);
+}
+#opportunities13 {
+  margin: 33px 0 66px 0;
+}
+#opportunities13 > a {
+  margin-right: 16px;
+}
+#opportunities14 span {
+  display: inline-block;
+  color: rgb(154, 170, 151);
+  margin-bottom: 16px;
+}
+#opportunities15 {
+  align-items: center;
+  gap: 24px;
+}
+#opportunities15 img {
+  height: 40px;
+}
+
+#opportunities17 {
+  padding: 33px 0;
+}
+#opportunities18 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 33px;
+  margin: 33px 0;
+}
+
+.myupwork02 {
+  padding: 16px 33px 33px 16px;
+  border-radius: 20px;
+  background: rgb(242, 247, 242)
+}
+.myupwork02:hover {
+  background: rgb(213, 224, 213);
+}
+.myupwork03 {
+  justify-content: space-between;
+  width: 80%;
+  color: rgb(94, 109, 85);
+  font-family: 'Radio Canada', sans-serif;;
+  margin-top: 16px;
+}
+#opportunities17 .fa-star {
+  color: rgb(20, 168, 0);
+  font-size: 13px;
+  margin: 0 2px 2px 0;
+}
+.myupwork02 h4 {
+  color: rgb(0, 30, 0);
+}
+
+
+
+#opportunities19 {
+  padding: 33px 0;
+}
+#opportunities20 {
+  justify-content: space-between;
+  border: 1px solid rgb(213, 224, 213);
+  padding: 33px;
+  border-radius: 20px;
+}
+#opportunities21 {
+  margin: 10px 0 50px 0;
+}
+
+#myupwork05 {
+  padding: 80px 0;
+}
+#myupwork05 .myupwork01 {
+  justify-content: space-between;
+}
+#opportunities22 {
+  background: rgb(242, 247, 242);
+  width: 65%;
+  padding: 66px 80px 24px 24px;
+}
+#opportunities24 {
+  background: rgb(20, 168, 0);
+  color: #fff;
+  width: 33%;
+  padding: 24px 24px 50px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+#opportunities22, #opportunities24 {
+  border-radius: 20px;
+}
+.myupwork06 {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  padding-right: 210px;
+}
+.myupwork08 {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-top: 10px;
+}
+.myupwork08 .fa-star {
+  font-size: 33px;
+}
+.myupwork08 img {
+  width: 33px;
+}
+.sec4Left_icons {
+  color: #fff;
+  border-radius: 130px;
+  background: rgb(0, 30, 0);
+  padding: 4px;
+  margin-top: 10px;
+  font-size: 14px;
+  display: inline-block;
+}
+#opportunities22 .myupwork07 {
+  color: rgb(94, 109, 85);
+}
+#opportunities23 {
+  position: absolute;
+  transform: translate(520px, -75px);
+}
+
+#myupwork09 {
+  margin: 33px 0;
+}
+#opportunities25 {
+  justify-content: space-between;
+}
+#opportunities25 a {
+  border-bottom: 1px solid rgb(154, 170, 151);
+}
+
+#opportunities25 span:hover a {
+  color: rgb(60, 129, 36);
+}
+#opportunities25 .icon {
+  margin-left: 5px;
+}
+
+#opportunities26 {
+  margin: 16px 0;
+  justify-content: space-between;
+  align-items: stretch;
+  position: relative;
+}
+.myupwork10 {
+  width: 31%;
+  border-radius: 7px;
+  overflow: hidden;
+  background: rgb(242, 247, 242);
+}
+.myupwork10:hover {
+  background: rgb(213, 224, 213);
+}
+.myupwork11 {
+  padding: 16px 24px 100px 16px;
+}
+
+#opportunities27 {
+  transform: translate(-70%, -50%);
+}
+#opportunities28 {
+  right: 0;
+  transform: translate(70%, -50%);
+}
+#opportunities27, #opportunities28 {
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-size: 40px;
+  color: #fff;
+  background: rgb(20, 168, 0);
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  width: 72px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 130px;
+}
+#opportunities27:hover, #opportunities28:hover {
+  background: rgb(60, 129, 36);
+}
+
+
+#opportunities29 {
+  margin: 100px 0;
+}
+#opportunities29 .myupwork01 {
+  border-radius: 12px;
+  overflow: hidden;
+}
+#opportunities30 {
+  width: 100%;
+}
+#opportunities30 img {
+  height: 100%;
+}
+#opportunities31 {
+  background: rgb(31, 87, 195);
+  color: #fff;
+  width: 100%;
+  padding: 33px 50px 33px 33px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#opportunities31 h1 {
+  margin: 24px 0;
+}
+
+#opportunities31 span {
+  font-size: 18px;
+}
+#opportunities33 {
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  padding: 10px 0 0 0;
+}
+#opportunities33 > span {
+  width: 28%;
+}
+#opportunities34 {
+  color: rgb(31, 87, 195);
+  background: #fff;
+  width: fit-content;
+  margin-top: 50px;
+}
+
+#opportunities35 {
+  margin: 33px 0;
+}
+#opportunities36 {
+  gap: 33px;
+  position: relative;
+}
+.myupwork12 {
+  color: #fff;
+  border-radius: 15px;
+  padding: 33px;
+}
+#opportunities37 {
+  background: rgb(19, 84, 78);
+}
+#opportunities39 {
+  background: rgb(188, 81, 27);
+}
+#opportunities38, #opportunities40 {
+  gap: 80px;
+  justify-content: space-between;
+}
+#opportunities38 img {
+  margin-bottom: 14px;
+}
+#opportunities40 img {
+  margin-bottom: 24px;
+}
+#opportunities35 h4 {
+  font-family: 'Radio Canada', sans-serif;
+}
+
+.myupwork15 {
+  justify-content: space-between;
+  border-top: 1px solid #fff;
+  padding: 16px 0 0 0;
+  margin-top: 16px;
+}
+.myupwork15 > div {
+  margin-right: 33px;
+  width: 100%;
+}
+#opportunities41 {
+  right: 0;
+  transform: translate(50%, -50%);
+}
+#opportunities41 {
+  font-weight: 900;
+  font-family: "Font Awesome 5 Free";
+  font-size: 40px;
+  color: #fff;
+  background: rgb(20, 168, 0);
+  position: absolute;
+  top: 50%;
+  padding: 16px;
+  width: 72px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 130px;
+}
+#opportunities41:hover {
+  background: rgb(60, 129, 36);
+}
+
+#opportunities42 {
+  margin: 66px 0;
+  padding: 33px;
+  font-family: 'Radio Canada', sans-serif;;
+}
+#opportunities42 .myupwork01 {
+  justify-content: space-between;
+}
+#opportunities43 {
+  width: 33%;
+}
+#opportunities43 h3 {
+  font-size: 38px;
+  color: rgb(213, 224, 213);
+  margin-bottom: 16px;
+}
+#opportunities43 h3.opportunities44 {
+  color: rgb(20, 168, 0);
+}
+#opportunities43 h3:hover {
+  color: rgb(60, 129, 36);
+}
+
+#opportunities45 {
+  width: 66%;
+  flex-wrap: wrap;
+}
+#opportunities45 > a{
+  width: 50%;
+  font-size: 28px;
+  margin-bottom: 14px;
+  color: rgb(94, 109, 85);
+}
+#opportunities45 > a:hover {
+  color: rgb(20, 168, 0);
+}
+
+
+footer {
+  background: #001e00;
+  color: #fff;
+  font-family: 'Radio Canada', sans-serif;;
+  font-weight: 400;
+  padding: 50px 0;
+}
+footer a {
+  color: #fff;
+  font-size: 14px;
+}
+#footer01 {
+  justify-content: space-between;
+  margin-right: 66px;
+}
+#footer01 h5 {
+  margin-bottom: 16px;
+}
+#footer01 > div {
+  gap: 14px;
+  width: 18%;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+#footer02 {
+  justify-content: space-between;
+  margin: 66px 0 10px 0;
+  align-items: center;
+}
+#footer02 > .flexa {
+  gap: 24px;
+  align-items: center;
+}
+.footer02logos {
+  border-radius: 100%;
+  border: 1px solid #fff;
+  padding: 5px;
+  font-size: 15px;
+  margin-right: 7px;
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+.footer02logos:hover {
+  background: rgb(94, 109, 85);
+}
+
+#footer03 {
+  border-top: 1px solid rgb(94, 109, 85);
+  padding-top: 16px;
+}
+#opportunities46 {
+  padding-right: 33px;
+  border-right: 1px solid rgb(94, 109, 85);
+}
+#opportunities47 {
+  margin-left: 33px;
+  gap: 33px;
+}
